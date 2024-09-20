@@ -1,8 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000; /* Cor de fundo preto */
+    color: #C0C0C0; /* Cor do texto prata */
     margin: 0;
     padding: 0;
+}
+
+.credits {
+    background-color: #333; /* Cor de fundo cinza escuro para a barra de crédito */
+    color: #C0C0C0; /* Texto prata */
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
 }
 
 .container {
@@ -13,7 +22,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #C0C0C0; /* Título na cor prata */
 }
 
 #flashcards-container {
@@ -23,8 +32,8 @@ h1 {
 }
 
 .flashcard {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #333; /* Fundo dos flashcards em cinza escuro */
+    border: 1px solid #444; /* Borda cinza mais escura */
     border-radius: 8px;
     width: 200px;
     height: 150px;
@@ -36,6 +45,7 @@ h1 {
     justify-content: center;
     cursor: pointer;
     transition: transform 0.3s ease;
+    color: #C0C0C0; /* Cor do texto prata */
 }
 
 .flashcard:hover {
@@ -45,13 +55,13 @@ h1 {
 .flashcard p {
     margin: 0;
     font-size: 18px;
-    color: #333;
+    color: #C0C0C0; /* Texto dos flashcards em prata */
 }
 
 .flashcard .resposta {
     display: none;
     font-size: 16px;
-    color: #007BFF;
+    color: #C0C0C0; /* Resposta em prata */
 }
 
 .flashcard.show .resposta {
